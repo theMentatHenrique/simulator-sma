@@ -25,7 +25,7 @@ public class Simulator {
         aleatorios = new Random(this.qtdNumRandom, (int) paper.get("semente"));
     }
 
-    public void simulacao () {
+    public void simulation() {
         while (aleatorios.getQtAleatorios() < this.qtdNumRandom) {
             var eventoAtual = eventosAgendados.remove(0);             //Remove o evento dos agendados, pois já está sendo executado
 
