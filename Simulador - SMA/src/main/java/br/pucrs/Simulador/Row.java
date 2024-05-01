@@ -3,7 +3,7 @@ package br.pucrs.Simulador;
 import java.util.HashMap;
 
 public class Row {
-    //Dados carregados do arquivo de entrada .yml
+    // Estes dados vem do yml
     private int id;
     private double chegadaInicial;
     private int servidores;
@@ -13,11 +13,9 @@ public class Row {
     private double saidaMinima;
     private double saidaMaxima;
 
-    //Dados de controle
     private int populacaoAtual;
     private int perdidos;
 
-    //Topologia de filas
     private final HashMap<Integer, Row> filaDestino = new HashMap<>();
     private final HashMap<Integer, Double> probabilidades = new HashMap<>();
 
