@@ -1,6 +1,6 @@
-package br.pucrs.t1Simulacao;
+package br.pucrs.Simulador;
 
-import br.pucrs.t1Simulacao.Event.TipoEnum;
+import br.pucrs.Simulador.Event.TipoEnum;
 import org.yaml.snakeyaml.Yaml;
 
 import java.io.InputStream;

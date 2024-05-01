@@ -1,4 +1,4 @@
-package br.pucrs.t1Simulacao;
+package br.pucrs.Simulador;
 
 import java.util.ArrayList;
 import java.util.List;

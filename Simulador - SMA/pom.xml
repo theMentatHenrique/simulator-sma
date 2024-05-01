@@ -32,7 +32,7 @@
 <!--                        <manifest>-->
 <!--                            <addClasspath>true</addClasspath>-->
 <!--                            <classpathPrefix>lib/</classpathPrefix>-->
-<!--                            <mainClass>br.pucrs.t1Simulacao.Main</mainClass>-->
+<!--                            <mainClass>br.pucrs.Simulador.Main</mainClass>-->
 <!--                        </manifest>-->
 <!--                    </archive>-->
 <!--                </configuration>-->
@@ -47,7 +47,7 @@
                     </descriptorRefs>
                     <archive>
                         <manifest>
-                            <mainClass>br.pucrs.t1Simulacao.Main</mainClass>
+                            <mainClass>br.pucrs.Simulador.Main</mainClass>
                         </manifest>
                     </archive>
                 </configuration>

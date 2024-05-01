@@ -1,4 +1,4 @@
-package br.pucrs.t1Simulacao;
+package br.pucrs.Simulador;
 
 public class Random {
     private final int a;
