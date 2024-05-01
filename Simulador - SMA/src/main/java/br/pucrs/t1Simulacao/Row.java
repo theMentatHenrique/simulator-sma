@@ -2,7 +2,7 @@ package br.pucrs.t1Simulacao;
 
 import java.util.HashMap;
 
-public class Fila {
+public class Row {
     //Dados carregados do arquivo de entrada .yml
     private int id;
     private double chegadaInicial;
@@ -18,10 +18,10 @@ public class Fila {
     private int perdidos;
 
     //Topologia de filas
-    private final HashMap<Integer, Fila> filaDestino = new HashMap<>();
+    private final HashMap<Integer, Row> filaDestino = new HashMap<>();
     private final HashMap<Integer, Double> probabilidades = new HashMap<>();
 
-    public Fila() {
+    public Row() {
     }
 
     public int getId() {
@@ -108,7 +108,7 @@ public class Fila {
         return probabilidades;
     }
 
-    public void putToFilaDestino(Integer chave, Fila fila) {
+    public void putToFilaDestino(Integer chave, Row fila) {
         this.filaDestino.put(chave, fila);
     }
 

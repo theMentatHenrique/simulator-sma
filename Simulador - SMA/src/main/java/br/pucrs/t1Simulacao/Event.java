@@ -1,18 +1,18 @@
 package br.pucrs.t1Simulacao;
 
-public class Evento {
+public class Event {
     private TipoEnum tipo;
     private double tempo; //Tempo do evento
     private Integer idOrigem;
     private Integer idDestino;
 
-    public Evento(TipoEnum tipo, double tempo, int idOrigem) {
+    public Event(TipoEnum tipo, double tempo, int idOrigem) {
         this.idOrigem = idOrigem;
         this.tipo = tipo;
         this.tempo = tempo;
     }
 
-    public Evento(TipoEnum tipo, double tempo, int idOrigem, int idDestino) {
+    public Event(TipoEnum tipo, double tempo, int idOrigem, int idDestino) {
         this.tipo = tipo;
         this.tempo = tempo;
         this.idOrigem = idOrigem;

@@ -1,6 +1,6 @@
 package br.pucrs.t1Simulacao;
 
-public class Aleatorio {
+public class Random {
     private final int a;
     private final long c;
     private final double mod;
@@ -9,7 +9,7 @@ public class Aleatorio {
     private double ultimoAleatorio;
     private int qtAleatorios;
 
-    public Aleatorio(int tamanho, int semente) {
+    public Random(int tamanho, int semente) {
         a = 16807;
         c = 11;
         mod = Math.pow(2,31) - 1;
